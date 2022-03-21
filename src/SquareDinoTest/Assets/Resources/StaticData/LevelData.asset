@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f96d75dd59643c3b78eb317687fe8e9, type: 3}
+  m_Name: LevelData
+  m_EditorClassIdentifier: 
+  LevelKey: Demo
+  PlayerInitialPosition: {x: 5.54, y: -2.387, z: -15.24}
+  EnemySpawners:
+  - EnemySpawnId: 0
+    Position: {x: 5.571395, y: -1.9986314, z: -11.391677}
+  - EnemySpawnId: 1
+    Position: {x: 5.0173945, y: -1.9986314, z: -11.394677}
+  - EnemySpawnId: 1
+    Position: {x: -0.2846055, y: -2.6756313, z: -11.427677}
+  - EnemySpawnId: 0
+    Position: {x: -2.9646049, y: -2.3756313, z: -11.212677}
+  - EnemySpawnId: 0
+    Position: {x: -2.9646049, y: -2.3756313, z: -11.813677}
+  - EnemySpawnId: 1
+    Position: {x: 4.5503945, y: -1.9986314, z: -11.447677}
+  EnemiesPerWaypoint: 030000000100000002000000
