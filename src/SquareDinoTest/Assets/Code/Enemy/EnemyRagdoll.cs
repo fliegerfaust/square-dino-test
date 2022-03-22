@@ -1,5 +1,4 @@
-﻿using System;
-using UnityEngine;
+﻿using UnityEngine;
 
 namespace Code.Enemy
 {
@@ -7,7 +6,6 @@ namespace Code.Enemy
   {
     [SerializeField] private Rigidbody[] _rigidbodies;
     [SerializeField] private EnemyDeath _enemyDeath;
-    [SerializeField] private Animator _animator;
 
     private void Awake()
     {
@@ -18,7 +16,6 @@ namespace Code.Enemy
 
     private void ActivateRagdoll()
     {
-      // _animator.enabled = false;
       foreach (Rigidbody rb in _rigidbodies)
         rb.isKinematic = false;
     }
